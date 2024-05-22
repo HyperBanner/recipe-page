@@ -19,6 +19,18 @@
   padding: 0;
 }
 
+html,
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
