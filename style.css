@@ -60,6 +60,12 @@ li {
   color: hsl(24, 5%, 18%);
 }
 
+ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 ol li {
   padding-left: 12px;
   line-height: 1.4;
@@ -73,7 +79,7 @@ ul li {
 }
 
 ul li::marker {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 ol li::marker {
@@ -122,6 +128,14 @@ td {
 .ingredients-list,
 .instructions-list {
   padding: 0 16px;
+}
+
+.prep-list li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.ingredients-list li::marker {
+  color: hsl(14, 45%, 36%);
 }
 
 .prep,
