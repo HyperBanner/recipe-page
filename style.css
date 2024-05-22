@@ -36,6 +36,7 @@ h2 {
 }
 
 h3 {
+  font-weight: 600;
   margin-bottom: 16px;
 }
 
@@ -127,6 +128,12 @@ td {
 .ingredients,
 .nutrition {
   min-width: 100%;
+}
+
+.prep {
+  color: hsl(332, 51%, 32%);
+  background-color: hsl(330, 100%, 98%);
+  padding: 32px;
 }
 
 .nutrition > p {
