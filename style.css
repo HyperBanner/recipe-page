@@ -25,6 +25,69 @@ body {
   display: flex;
   flex-direction: column;
   background-color: hsl(30, 54%, 90%);
+  font-family: "Outfit", sans-serif;
+}
+
+h1,
+h2 {
+  margin-bottom: 20px;
+  font-family: "Young Serif";
+  font-weight: 400;
+}
+
+h3 {
+  margin-bottom: 16px;
+}
+
+h1 {
+  color: hsl(24, 5%, 18%);
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+
+hr {
+  width: 100%;
+  color: hsla(0, 2%, 80%, 0.719);
+  background-color: hsla(0, 2%, 80%, 0.719);
+  border: 0;
+  height: 1px;
+}
+
+ul {
+  line-height: 2;
+}
+
+li {
+  color: hsl(24, 5%, 18%);
+}
+
+ol li {
+  padding-left: 12px;
+}
+
+ul li {
+  padding-left: 20px;
+}
+
+ul li::marker {
+  font-size: 10px;
+}
+
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+  line-height: 150%;
+  color: hsl(24, 5%, 18%);
+}
+
+a {
+  text-decoration: none;
 }
 
 .main {
@@ -32,9 +95,32 @@ body {
   flex-direction: column;
   margin: auto;
   align-items: center;
-  max-width: 1000px;
+  max-width: 800px;
   background-color: hsl(0, 0%, 100%);
   padding: 32px;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  gap: 32px;
+}
+
+.prep-list,
+.ingredients-list,
+.instructions-list {
+  padding: 0 16px;
+}
+
+.prep,
+.ingredients,
+.nutrition {
+  min-width: 100%;
+}
+
+.nutrition > p {
+  margin-bottom: 20px;
+}
+
+.cell {
+  color: hsl(24, 5%, 18%);
 }
 
 .attribution {
