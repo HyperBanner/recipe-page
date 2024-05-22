@@ -185,3 +185,39 @@ td {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media only screen and (max-width: 800px) {
+  .main {
+    margin: 0;
+    border-radius: 0px;
+    padding: 0;
+  }
+
+  img {
+    border-radius: 0px;
+  }
+
+  hr {
+    width: calc(100% - 64px);
+    min-width: 0;
+  }
+
+  .main {
+    width: 100vw;
+    align-items: center;
+  }
+
+  .description,
+  .prep,
+  .ingredients,
+  .instructions,
+  .nutrition {
+    min-width: calc(100% - 64px);
+    margin: 0 32px;
+  }
+
+  .attribution {
+    padding-top: 16px;
+    background-color: hsl(0, 0%, 100%);
+  }
+}
