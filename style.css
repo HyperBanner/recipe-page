@@ -90,6 +90,20 @@ a {
   text-decoration: none;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid hsla(0, 2%, 80%, 0.719);
+}
+
+td {
+  color: hsl(24, 5%, 18%);
+  padding: 16px 0;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -116,11 +130,24 @@ a {
 }
 
 .nutrition > p {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
-.cell {
-  color: hsl(24, 5%, 18%);
+.pad-left {
+  padding-left: 32px;
+}
+
+.pad-right {
+  padding-right: 32px;
+}
+
+.bold-color {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+.no-border {
+  border: none;
 }
 
 .attribution {
