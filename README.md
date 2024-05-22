@@ -31,7 +31,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 - Semantic HTML5 markup
 - Flexbox
-- <table>
+- Table
 
 ### What I learned
 
@@ -41,7 +41,7 @@ I also learned about "calc()", and other nifty things, namely the "::marker" pse
 ### Continued development
 
 There's probably some code inconsistency I overlooked here and there, but mostly I feel like it was me shooting myself in the foot for not designing the page "mobile-first, desktop-second", because half my time was spent trying to figure out how to properly set up responsiveness.
-One thing I do want to explicitly learn is: How to do a table-like layout without using <table>. There's got to be a better or more "modern" way.
+One thing I do want to explicitly learn is: How to do a table-like layout without using the table tag. There's got to be a better or more "modern" way.
 
 ### Useful resources
 
