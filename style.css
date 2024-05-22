@@ -28,6 +28,10 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
+img {
+  border-radius: 12px;
+}
+
 h1,
 h2 {
   margin-bottom: 20px;
@@ -122,6 +126,7 @@ td {
   margin-top: 7%;
   margin-bottom: 7%;
   gap: 32px;
+  border-radius: 20px;
 }
 
 .prep-list,
@@ -148,6 +153,7 @@ td {
   color: hsl(332, 51%, 32%);
   background-color: hsl(330, 100%, 98%);
   padding: 32px;
+  border-radius: 12px;
 }
 
 .nutrition > p {
